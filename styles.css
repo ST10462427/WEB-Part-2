@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav ul li {
+    margin-right: 20px;
+    }
+    
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    main h1 {
+    color: #007bff;
+    }
+    
+    main p {
+    margin-bottom: 20px;
+    }
+    .overlap-text {
+        color: white;
+        background-color: #007bff;
+        padding: 10px;
+      }
+      
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .row {
+    background-color: #f7f7f7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .col-md-3 {
+    flex-basis: 25%;
+    margin: 10px;
+    }
+    
+    @media (max-width: 960px) {
+    .col-md-3 {
+    flex-basis: 50%;
+    }
+    }
+    
+    @media (max-width: 600px) {
+    .col-md-3 {
+    flex-basis: 100%;
+    }
+    }
+    
+    footer {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+        }
+        
+        footer small {
+        font-size: 12px;
+        color: #ffffff;
+        }
+        
+        /* Add some responsive styling for mobile devices */
+        
+        @media (max-width: 768px) {
+        /* Make the header and footer full-width on small screens */
+        header, footer {
+        width: 100%;
+        }
+        
+        /* Make the navigation menu vertical on small screens */
+        nav ul {
+            flex-direction: column;
+        }
+        
+        /* Make the main content area full-width on small screens */
+        main {
+            width: 100%;
+        }
+        
+        /* Make the container area full-width on small screens */
+        .container {
+            width: 100%;
+        }
+    
+        }
+        
+        /* Add some decorative styling for desktop devices */
+        
+        @media (min-width: 769px) {
+        /* Add some padding to the header and footer */
+        header, footer {
+        padding: 20px;
+        }
+        
+        /* Make the navigation menu horizontal on large screens */
+        nav ul {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        /* Add some margin to the main content area */
+        main {
+            margin: 20px;
+        }
+        
+        /* Add some padding to the container area */
+        .container {
+            padding: 20px;
+        }
+        
+        }
+    
+    /* Add some styling to the row and col-md-3 classes */
+    .row {
+        background-color: #f7f7f7;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .col-md-3 {
+        flex-basis: 25%;
+        margin: 10px;
+    }
+    
+    /* Add some styling to the h1 and p elements */
+    h1 {
+        color: #007bff;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
+
+    /* Add some styling to the footer */
+
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    }
+    
+    footer p {
+    margin-bottom: 10px;
+    }
+    
+    footer small {
+    font-size: 12px;
+    color: #ffffff;
+    }
+    
+    /* Add some responsive styling for mobile devices */
+    
+    @media (max-width: 768px) {
+    /* Make the footer full-width on small screens */
+    footer {
+    width: 100%;
+    }
+    }
+    
+    /* Add some decorative styling for desktop devices */
+    
+    @media (min-width: 769px) {
+    /* Add some padding to the footer */
+    footer {
+    padding: 20px;
+    }
+    }
+    
+    /* Add some styling to the container area */
+    
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    /* Add some styling to the row and col-md-3 classes */
+    
+    .row {
+    background-color: #f7f7f7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .col-md-3 {
+    flex-basis: 25%;
+    margin: 10px;
+    }
+
+    /* Add some styling to the col-md-3 classes */
+
+.col-md-3 {
+    flex-basis: 25%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Add some styling to the h2 elements */
+    
+    h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+    }
+    
+    /* Add some styling to the p elements */
+    
+    p {
+    margin-bottom: 20px;
+    }
+    
+    /* Add some responsive styling for mobile devices */
+    
+    @media (max-width: 768px) {
+    /* Make the col-md-3 classes full-width on small screens */
+    .col-md-3 {
+    flex-basis: 100%;
+    }
+    }
+    
+    /* Add some decorative styling for desktop devices */
+    
+    @media (min-width: 769px) {
+    /* Add some padding to the col-md-3 classes */
+    .col-md-3 {
+    padding: 20px;
+    }
+    }
